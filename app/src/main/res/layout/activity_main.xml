@@ -16,7 +16,8 @@
             android:layout_height="0dp"
             android:layout_weight="3.5"
             android:scaleType="centerCrop"
-            android:src="@drawable/android_developer" />
+            android:src="@drawable/android_developer"
+            android:contentDescription="TODO" />
 
         <RelativeLayout
 
@@ -134,7 +135,8 @@
                 android:layout_below="@id/icon_web"
                 android:layout_marginLeft="38dp"
                 android:layout_marginTop="32dp"
-                android:src="@drawable/icon_home" />
+                android:src="@drawable/icon_home"
+                android:contentDescription="TODO" />
 
             <TextView
                 android:layout_width="wrap_content"
