@@ -118,7 +118,8 @@
                 android:text="@string/web"
                 android:textColor="#E65100"
                 android:textSize="19sp"
-                android:textStyle="italic" />
+                android:textStyle="italic"
+                android:autoLink="web|email" />
 
             <View
                 android:layout_width="wrap_content"
@@ -149,7 +150,8 @@
                 android:text="@string/home"
                 android:textColor="#F4FF81"
                 android:textSize="19sp"
-                android:textStyle="italic" />
+                android:textStyle="italic"
+                android:autoLink=""/>
 
         </RelativeLayout>
     </LinearLayout>
